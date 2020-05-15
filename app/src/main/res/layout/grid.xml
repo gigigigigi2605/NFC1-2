@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:background="@android:color/white"
+    tools:context=".Grid">
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_below="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:scale_base_height="250"
+        app:scale_base_width="1080"
+        android:background="@drawable/as"
+        >
+
+        <ImageButton
+            android:background="#ffffff"
+            android:id="@+id/home"
+            android:src="@drawable/house"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|left"
+            app:scale_height="200"
+            app:scale_left="40"
+            app:scale_width="300" />
+        <ImageButton
+            android:background="#ffffff"
+            android:id="@+id/search"
+            android:src="@drawable/magnifier"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:scale_height="200"
+            app:scale_left="0"
+            app:scale_width="300" />
+        <ImageButton
+            android:background="#ffffff"
+            android:id="@+id/find"
+            android:src="@drawable/cart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:scale_height="200"
+            app:scale_left="350"
+            app:scale_width="300" />
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:id="@+id/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:background="@android:color/white"
+        app:scale_base_height="1530"
+        app:scale_base_width="1080">
+
+        <ScrollView
+
+            xmlns:android="http://schemas.android.com/apk/res/android"
+
+            xmlns:tools="http://schemas.android.com/tools"
+
+            android:id="@+id/ScrollView1"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            app:scale_height="1520"
+            app:scale_width="1080"
+
+            >
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+
+                android:orientation="vertical" >
+
+               <ImageButton
+                   android:layout_width="match_parent"
+                   android:layout_height="100dp"
+                   android:background="@drawable/dn"
+                   />
+
+                <ImageButton
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/dn"
+                    />
+
+                <ImageButton
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/dn"
+                    />
+
+                <ImageButton
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/dn"
+                    />
+
+                <ImageButton
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/dn"
+                    />
+
+                <ImageButton
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/dn"
+                    />
+
+                <ImageButton
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/dn"
+                    />
+
+                <ImageButton
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/dn"
+                    />
+
+                <ImageButton
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/dn"
+                    />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/as"
+        app:scale_base_height="150"
+        app:scale_base_width="1080">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:scale_height="100"
+            android:text="배달앱 이름"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            app:scale_textsize="80"
+            app:scale_width="1000"
+            android:textAlignment="center"/>
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="297dp"
+        android:layout_height="188dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        app:scale_base_height="120"
+        app:scale_base_width="1080">
+
+        <TextView
+            android:text=""
+            android:textColor="@android:color/black"
+            android:id="@+id/Menu_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:scale_height="100"
+            app:scale_left="10"
+            app:scale_top="10"
+            app:scale_width="400"
+            app:scale_textsize="60"
+            />
+        <TextView
+            android:text=""
+            android:textColor="@android:color/black"
+            android:id="@+id/count"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:scale_height="100"
+            app:scale_left="410"
+            app:scale_top="10"
+            app:scale_width="400"
+            app:scale_textsize="60"/>
+        <TextView
+            android:textColor="@android:color/black"
+            android:text=""
+            android:gravity="right"
+            android:id="@+id/price_won"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:scale_left="810"
+            app:scale_top="10"
+            app:scale_height="100"
+            app:scale_width="260"
+            app:scale_textsize="60"
+            />
+
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+
+
+
+</RelativeLayout>

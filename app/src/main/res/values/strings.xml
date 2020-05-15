@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">맛나다</string>
+    <string name="exit">\'뒤로\'버튼 한 번 더 누르시면 종료됩니다.</string>
+    <string name="orignal_price">총 주문 금액 %,d원</string>
+    <string name="discount_price">포인트 할인 %,d 포인트</string>
+    <string name="final_price">%,d원</string>
+</resources>

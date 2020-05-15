@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:layout_centerInParent="true"
+    tools:context=".Order_history">
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/as"
+        app:scale_base_height="150"
+        app:scale_base_width="1080"
+        android:id="@+id/top">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:scale_height="100"
+            android:text="배달앱 이름"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            app:scale_textsize="80"
+            app:scale_width="1000"
+            android:textAlignment="center"/>
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:scale_base_height="1060"
+        app:scale_base_width="1080"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:scale_height="130"
+        app:scale_width="1080"
+        android:id="@+id/a"
+        android:background="@color/colorPrimaryDark"
+        android:text=" 배달정보"
+        />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:scale_height="130"
+            app:scale_width="1080"
+            android:layout_below="@id/top"
+            />
+
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+    <!--<com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="#80f8f7f7"
+        app:scale_base_height="400"
+        app:scale_base_width="1080">
+
+        <TextView
+            android:id="@+id/orignal_price"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="총 주문 금액 - "
+            android:textColor="@android:color/black"
+            app:scale_height="100"
+            app:scale_left="25"
+            app:scale_textsize="70"
+            app:scale_top="10"
+            app:scale_width="700" />
+
+        <TextView
+            android:id="@+id/Discount_price"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="포인트 할인 - "
+            android:textColor="@android:color/black"
+            app:scale_height="100"
+            app:scale_left="25"
+            app:scale_textsize="70"
+            app:scale_top="120"
+            app:scale_width="800" />
+
+        <TextView
+            android:id="@+id/Final_price"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="최종 결제 금액"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            app:scale_height="120"
+            app:scale_left="25"
+            app:scale_textsize="70"
+            app:scale_top="260"
+            app:scale_width="500" />
+
+        <TextView
+            android:id="@+id/Final_price_won"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:text="원"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="bold"
+            app:scale_height="120"
+            app:scale_left="550"
+            app:scale_textsize="70"
+            app:scale_top="260"
+            app:scale_width="500" />
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+-->
+  <!--  <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_below="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:scale_base_height="250"
+        app:scale_base_width="1080"
+        android:background="@drawable/as"
+        >
+
+        <ImageButton
+            android:background="#ffffff"
+            android:id="@+id/home"
+            android:src="@drawable/house"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|left"
+            app:scale_height="200"
+            app:scale_left="40"
+            app:scale_width="300" />
+        <ImageButton
+            android:background="#ffffff"
+            android:id="@+id/search"
+            android:src="@drawable/magnifier"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:scale_height="200"
+            app:scale_left="0"
+            app:scale_width="300" />
+        <ImageButton
+            android:background="#ffffff"
+            android:id="@+id/find"
+            android:src="@drawable/cart"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:scale_height="200"
+            app:scale_left="350"
+            app:scale_width="300" />
+    </com.ssomai.android.scalablelayout.ScalableLayout>-->
+
+</RelativeLayout>

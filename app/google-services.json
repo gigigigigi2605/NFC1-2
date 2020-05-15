@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "53314076935",
+    "firebase_url": "https://ghasnfc.firebaseio.com",
+    "project_id": "ghasnfc",
+    "storage_bucket": "ghasnfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53314076935:android:f007944d0b6e5de3",
+        "android_client_info": {
+          "package_name": "com.example.user.nfc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53314076935-rqc2t3b9l50ktlffitr7mm5ni602qei4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqIMpEvaN7TE2Nr8sTZD6s9lFh_M-TSr0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

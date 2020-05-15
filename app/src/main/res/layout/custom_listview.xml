@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        app:scale_base_height="1920"
+        app:scale_base_width="1080">
+        <TextView
+            android:id="@+id/Deliveryapp_name"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/as"
+            android:gravity="center"
+            android:text="배달앱 이름"
+            android:textColor="@android:color/black"
+            app:scale_height="180"
+            app:scale_left="0"
+            app:scale_textsize="90"
+            app:scale_top="0"
+            app:scale_width="1080" />
+
+        <TextView
+            android:id="@+id/border_line"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/as"
+            app:scale_height="960"
+            app:scale_left="0"
+            app:scale_top="180"
+            app:scale_width="1080"/>
+
+        <ImageView
+            android:id="@+id/Menu_picture"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/as"
+            app:scale_height="740"
+            app:scale_left="140"
+            app:scale_top="270"
+            app:scale_width="800" />
+
+        <TextView
+            android:id="@+id/Household_name"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text=""
+            app:scale_height="120"
+            app:scale_left="5"
+            app:scale_textsize="60"
+            app:scale_top="1000"
+            app:scale_width="1080" />
+        <ScrollView
+
+            xmlns:android="http://schemas.android.com/apk/res/android"
+
+            xmlns:tools="http://schemas.android.com/tools"
+
+            android:id="@+id/ScrollView1"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            app:scale_top="1150"
+            app:scale_height="600"
+            app:scale_width="1080"
+
+            >
+            <LinearLayout
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+
+                android:orientation="vertical" >
+        <Button
+            android:id="@+id/Menu_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:background="@drawable/as"
+            app:scale_height="160"
+            app:scale_textsize="60"
+            app:scale_top="1150"
+            app:scale_width="1080" />
+        <Button
+            android:id="@+id/Menu_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:background="@drawable/as"
+
+            app:scale_height="160"
+            app:scale_textsize="60"
+            app:scale_top="1320"
+            app:scale_width="1080" />
+        <Button
+            android:id="@+id/Menu_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:background="@drawable/as"
+            android:text=""
+            app:scale_height="160"
+            app:scale_left="0"
+            app:scale_textsize="60"
+            app:scale_top="1480"
+            app:scale_width="1080" />
+            </LinearLayout>
+
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/Home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/as"
+            android:textColor="@android:color/black"
+            app:scale_height="180"
+            app:scale_left="0"
+            app:scale_textsize="90"
+            app:scale_top="1750"
+            app:scale_width="1080" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/house"
+            android:background="#FFFFFF"
+            app:scale_height="150"
+            app:scale_top="1760"
+            app:scale_left="35"
+            app:scale_width="150" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/magnifier"
+            android:background="#FFFFFF"
+            app:scale_height="150"
+            app:scale_top="1760"
+            app:scale_left="470"
+            app:scale_width="150"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/cart"
+            android:background="#FFFFFF"
+            app:scale_height="150"
+            app:scale_top="1760"
+            app:scale_left="880"
+            app:scale_width="150"/>
+
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+</ScrollView>
